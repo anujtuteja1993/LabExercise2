@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is index.html" />
+    <meta name="keywords" content="homepage, hello world" />
+    <meta name="author" content="Anuj Tuteja" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/">Home</a>
+        <a href="./form">Form</a>
+        <a href="/form">Form</a>
+      </nav>
+    </header>
+    <main></main>
+    <h1>My HTML Learning Journey</h1>
+    <article>
+      <h2>Learning HTML elements like div, span, p, pre, ol, ul etc.</h2>
+      <div>avocado</div>
+      <div>kiwi</div>
+      <div>banana</div>
+      <span>Test</span>
+      <span>Test2</span>
+      <span>Test3</span>
+      <p>p represents paragraphs</p>
+      <pre>
+      Text in         a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks
+      </pre>
+      <ul>
+        <li>Food</li>
+        <li>Money</li>
+      </ul>
+      <ol>
+        <li>Food</li>
+        <li>Money</li>
+      </ol>
+    </article>
+    <article>
+      <h2>Tables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>First header</th>
+            <th colspan="2">Second header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+          </tr>
+          <tr>
+            <td rowspan="2">First cell - second row</td>
+            <td>Second cell - second row</td>
+          </tr>
+          <tr>
+            <td>First cell - third row</td>
+            <td>Second cell - third row</td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="https://picsum.photos/200/300" alt="" />
+      <video controls autoplay width="250">
+        <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+        <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <audio controls autoplay src="/media/cc0-audio/t-rex-roar.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+      </audio>
+    </article>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>
